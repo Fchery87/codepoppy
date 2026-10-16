@@ -1,0 +1,16 @@
+name: codepoppy-review
+on:
+  workflow_dispatch:
+    inputs:
+      run_id:
+        required: true
+        type: string
+permissions:
+  id-token: write
+  contents: read
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    steps:
+      - name: claim
+        run: echo "claim ${{ inputs.run_id }}"

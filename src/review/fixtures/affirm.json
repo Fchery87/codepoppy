@@ -1,0 +1,12 @@
+{
+  "category": "security",
+  "severity": "critical",
+  "verdict": "affirm",
+  "claim": "a reused token authenticates a stranger",
+  "path": "src/auth.ts",
+  "line": 4,
+  "scenario": "The token is accepted for a different account",
+  "context": "The changed line loads the token",
+  "consequence": "Account access",
+  "nextStep": "Compare the token subject before accepting it"
+}

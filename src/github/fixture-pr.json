@@ -1,0 +1,10 @@
+{
+  "repositoryId": 9,
+  "pullRequest": 7,
+  "baseSha": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "headSha": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+  "files": [
+    { "filename": "src/auth.ts", "patch": "@@ -2,2 +3,2 @@\n context\n+changed\n" },
+    { "filename": "src/old.ts", "status": "removed", "patch": "@@ -1,2 +0,0 @@\n-gone\n-also\n" }
+  ]
+}

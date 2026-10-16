@@ -1,0 +1,2 @@
+gitleaks 8.24.3
+rule-pack sha256:0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef
